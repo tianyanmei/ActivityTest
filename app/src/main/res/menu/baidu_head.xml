@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/baidu_get"
+        android:title="获取经纬度"
+
+
+        />
+    <item
+        android:id="@+id/removeId"
+        android:title="remove"/>
+</menu>

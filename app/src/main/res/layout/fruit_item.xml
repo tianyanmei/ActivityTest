@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/fruit_imagId"
+        android:layout_width="209dp"
+        android:layout_height="67dp" />
+
+    <TextView
+        android:id="@+id/fruit_nameId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15sp"
+        android:layout_gravity="center_vertical" />
+
+</LinearLayout>

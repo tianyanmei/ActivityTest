@@ -1,0 +1,14 @@
+1.显示打开activity 页面 startActivity(); startActivity(intent);
+2.隐式打开activity ，在待打开界面配置 <intent-filter>
+  添加自自定义的action和category(默认为)
+
+
+IMPORTANCE_NONE：      (0)关闭通知。在任何地方都不会显示，被阻塞
+IMPORTANCE_MIN：          (1)开启通知。不弹出，不发提示音，状态栏中无显示
+IMPORTANCE_LOW：        (2)开启通知。不弹出，不发提示音，状态栏中显示
+IMPORTANCE_DEFAULT：(3)开启通知。不弹出，发出提示音，状态栏中显示【默认】
+IMPORTANCE_HIGH：       (4)开启通知。会弹出，发出提示音，状态栏中显示
+
+IMPORTANCE_MAX：        (5)开启通知。会弹出，发出提示音，可以使用full screen intents(比如来电)。重要程度最高
+IMPORTANCE_UNSPECIFIED：(-1000)表示用户未设重要值。该值是为了持久的首选项，且永不应该与实际通知相关联
+
